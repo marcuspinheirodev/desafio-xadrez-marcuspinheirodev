@@ -61,7 +61,7 @@ void movimento(int *movimentos){
 
     if(*movimentos > 5 || *movimentos < 1){
         printf("Voce so pode fazer ate 5 movimentos...\n");
-        *movimentos = 0
+        *movimentos = 0;
             
     }else{
         printf("A peça está se movimentando...\n");
